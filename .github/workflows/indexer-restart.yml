@@ -1,9 +1,15 @@
 name: remote ssh command
 on:
   push:
+    branches:
+      - main
+      - master        
     paths:
       - 'typesBundle.json'
   pull_request:
+    branches:
+      - main
+      - master        
     paths:
       - 'typesBundle.json'
 jobs:

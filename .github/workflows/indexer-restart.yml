@@ -1,11 +1,11 @@
 name: remote ssh command
 on:
   push:
-          #    paths:
-          #      - 'typesBundle.json'
-          #  pull_request:
-          #    paths:
-          #      - 'typesBundle.json'
+    paths:
+      - 'typesBundle.json'
+  pull_request:
+    paths:
+      - 'typesBundle.json'
 jobs:
   build:
     name: Build
